@@ -431,8 +431,18 @@
     (rotate (xyz 0 0 0))
   )
   (model "${KIPRJMOD}/lib/kicad-lib/3dmodels/Raspberry Pi Pico-R3.STEP"
-    (offset (xyz 0 0 0.5))
+    (offset (xyz 0 0 3))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
+  )
+  (model "${KIPRJMOD}/lib/kicad-lib/3dmodels/1x20 Male Pin Header.STEP"
+    (offset (xyz -8.9 24.15 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 90))
+  )
+  (model "${KIPRJMOD}/lib/kicad-lib/3dmodels/1x20 Male Pin Header.STEP"
+    (offset (xyz 8.9 24.15 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 90))
   )
 )
